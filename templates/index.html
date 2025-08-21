@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RAG QnA System - Pune Municipal Corporation</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            margin-bottom: 30px;
+        }
+
+        .chat-section, .info-section {
+            background: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+        }
+
+        .chat-container {
+            height: 500px;
+            overflow-y: auto;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            background: #fafafa;
+        }
+
+        .message {
+            margin-bottom: 15px;
+            padding: 12px 16px;
+            border-radius: 10px;
+            max-width: 80%;
+            word-wrap: break-word;
+        }
+
+        .user-message {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            margin-left: auto;
+            text-align: right;
+        }
+
+        .ai-message {
+            background: white;
+            border: 2px solid #e0e0e0;
+            color: #333;
+        }
+
+        .input-section {
+            display: flex;
+            gap: 10px;
+        }
+
+        .question-input {
+            flex: 1;
+            padding: 12px 16px;
+            border: 2px solid #e0e0e0;
+            border-radius: 25px;
+            font-size: 16px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+
+        .question-input:focus {
+            border-color: #667eea;
+        }
+
+        .send-btn {
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: transform 0.2s;
+        }
+
+        .send-btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .send-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+
+        .loading i {
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+
+        .info-card {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .info-card h3 {
+            font-size: 1.2rem;
+            margin-bottom: 10px;
+        }
+
+        .info-card .value {
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .documents-used {
+            margin-top: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 10px;
+            border-left: 4px solid #667eea;
+        }
+
+        .documents-used h4 {
+            color: #667eea;
+            margin-bottom: 10px;
+        }
+
+        .document-item {
+            background: white;
+            padding: 8px 12px;
+            margin: 5px 0;
+            border-radius: 5px;
+            border: 1px solid #e0e0e0;
+            font-size: 0.9rem;
+        }
+
+        .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 15px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        .error {
+            background: #ffe6e6;
+            color: #d63031;
+            border: 1px solid #fab1a0;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .success {
+            background: #e6ffe6;
+            color: #00b894;
+            border: 1px solid #55a3ff;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .info-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-robot"></i> RAG QnA System</h1>
+            <p>Ask questions about Pune Municipal Corporation documents</p>
+        </div>
+
+        <div class="main-content">
+            <div class="chat-section">
+                <h2><i class="fas fa-comments"></i> Chat Interface</h2>
+                <div class="chat-container" id="chatContainer">
+                    <div class="message ai-message">
+                        <strong>AI Assistant:</strong> Hello! I'm your AI assistant with access to Pune Municipal Corporation documents. Ask me anything about government policies, procedures, or information from our knowledge base.
+                    </div>
+                </div>
+
+                <div class="loading" id="loading">
+                    <i class="fas fa-spinner fa-2x"></i>
+                    <p>Thinking...</p>
+                </div>
+
+                <div class="input-section">
+                    <input type="text" id="questionInput" class="question-input" 
+                           placeholder="Ask your question here..." 
+                           onkeypress="if(event.key==='Enter') askQuestion()">
+                    <button onclick="askQuestion()" class="send-btn" id="sendBtn">
+                        <i class="fas fa-paper-plane"></i> Send
+                    </button>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <h2><i class="fas fa-info-circle"></i> System Information</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>Model</h3>
+                        <div class="value" id="modelName">-</div>
+                    </div>
+                    <div class="info-card">
+                        <h3>Embeddings</h3>
+                        <div class="value" id="totalEmbeddings">-</div>
+                    </div>
+                    <div class="info-card">
+                        <h3>Vector Dim</h3>
+                        <div class="value" id="vectorDimension">-</div>
+                    </div>
+                    <div class="info-card">
+                        <h3>Status</h3>
+                        <div class="value" id="systemStatus">-</div>
+                    </div>
+                </div>
+
+                <div class="documents-used" id="documentsUsed" style="display: none;">
+                    <h4><i class="fas fa-file-alt"></i> Documents Used</h4>
+                    <div id="documentsList"></div>
+                    <div class="stats" id="responseStats"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let conversationHistory = [];
+
+        function addMessage(content, isUser = false) {
+            const chatContainer = document.getElementById('chatContainer');
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message ${isUser ? 'user-message' : 'ai-message'}`;
+            
+            const sender = isUser ? 'You' : 'AI Assistant';
+            messageDiv.innerHTML = `<strong>${sender}:</strong> ${content}`;
+            
+            chatContainer.appendChild(messageDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+            document.getElementById('sendBtn').disabled = true;
+        }
+
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+            document.getElementById('sendBtn').disabled = false;
+        }
+
+        function updateSystemInfo(data) {
+            document.getElementById('modelName').textContent = data.model_name || '-';
+            document.getElementById('totalEmbeddings').textContent = data.total_embeddings || '-';
+            document.getElementById('vectorDimension').textContent = data.vector_dimension || '-';
+            document.getElementById('systemStatus').textContent = 'Ready';
+        }
+
+        function showDocumentsUsed(documents, stats) {
+            const container = document.getElementById('documentsUsed');
+            const list = document.getElementById('documentsList');
+            const statsDiv = document.getElementById('responseStats');
+            
+            list.innerHTML = '';
+            
+            documents.forEach(doc => {
+                const docDiv = document.createElement('div');
+                docDiv.className = 'document-item';
+                docDiv.innerHTML = `
+                    <strong>${doc.filename}</strong><br>
+                    Score: ${doc.relevance_score.toFixed(3)} | Type: ${doc.type}
+                `;
+                list.appendChild(docDiv);
+            });
+            
+            statsDiv.innerHTML = `
+                <span>⏱️ Total: ${stats.total_time.toFixed(2)}s</span>
+                <span>🔍 Search: ${stats.search_time.toFixed(2)}s</span>
+                <span>🤖 Generation: ${stats.generation_time.toFixed(2)}s</span>
+            `;
+            
+            container.style.display = 'block';
+        }
+
+        async function askQuestion() {
+            const input = document.getElementById('questionInput');
+            const question = input.value.trim();
+            
+            if (!question) return;
+            
+            // Add user message
+            addMessage(question, true);
+            input.value = '';
+            
+            // Show loading
+            showLoading();
+            
+            try {
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question: question })
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    addMessage(result.answer);
+                    
+                    if (result.documents_used && result.documents_used.length > 0) {
+                        showDocumentsUsed(result.documents_used, {
+                            total_time: result.total_time,
+                            search_time: result.search_time,
+                            generation_time: result.generation_time
+                        });
+                    }
+                } else {
+                    addMessage(`❌ Error: ${result.error || 'Unknown error occurred'}`);
+                }
+                
+            } catch (error) {
+                addMessage(`❌ Network error: ${error.message}`);
+            } finally {
+                hideLoading();
+            }
+        }
+
+        // Load system info on page load
+        window.onload = async function() {
+            try {
+                const response = await fetch('/system-info');
+                const data = await response.json();
+                updateSystemInfo(data);
+            } catch (error) {
+                console.error('Error loading system info:', error);
+            }
+        };
+
+        // Handle Enter key
+        document.getElementById('questionInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                askQuestion();
+            }
+        });
+    </script>
+</body>
+</html>

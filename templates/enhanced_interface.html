@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced RAG Q&A System</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        .status-bar {
+            background: #f8f9fa;
+            padding: 15px 30px;
+            border-bottom: 1px solid #e9ecef;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .status-indicator {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .status-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: #28a745;
+        }
+
+        .status-dot.error {
+            background: #dc3545;
+        }
+
+        .main-content {
+            padding: 30px;
+        }
+
+        .question-form {
+            margin-bottom: 30px;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e9ecef;
+            border-radius: 10px;
+            font-size: 16px;
+            font-family: inherit;
+            resize: vertical;
+            min-height: 100px;
+            transition: border-color 0.3s ease;
+        }
+
+        textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.2s ease;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .answer-section {
+            background: #f8f9fa;
+            border-radius: 15px;
+            padding: 25px;
+            margin-top: 20px;
+            border-left: 5px solid #667eea;
+        }
+
+        .answer-section h3 {
+            color: #333;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+
+        .answer-text {
+            line-height: 1.6;
+            color: #555;
+            font-size: 16px;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 20px;
+            color: #666;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 15px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .error-message {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 10px;
+            border: 1px solid #f5c6cb;
+            margin-top: 20px;
+        }
+
+        .example-questions {
+            background: #e3f2fd;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .example-questions h4 {
+            color: #1976d2;
+            margin-bottom: 15px;
+        }
+
+        .example-list {
+            list-style: none;
+        }
+
+        .example-list li {
+            padding: 8px 0;
+            color: #555;
+            cursor: pointer;
+            transition: color 0.2s ease;
+        }
+
+        .example-list li:hover {
+            color: #1976d2;
+        }
+
+        .example-list li::before {
+            content: "💡 ";
+            margin-right: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Enhanced RAG Q&A System</h1>
+            <p>Ask questions about Pune Municipal Corporation documents</p>
+        </div>
+
+        <div class="status-bar">
+            <div class="status-indicator">
+                <div class="status-dot {% if not system_ready %}error{% endif %}"></div>
+                <span>{{ system_status }}</span>
+            </div>
+            <div class="status-indicator">
+                <span>Enhanced RAG System v2.0</span>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <form class="question-form" id="questionForm">
+                <div class="form-group">
+                    <label for="question">Ask your question:</label>
+                    <textarea 
+                        id="question" 
+                        name="question" 
+                        placeholder="Enter your question here... (You can ask in English, Marathi, or Hindi)"
+                        required
+                    ></textarea>
+                </div>
+                <button type="submit" class="btn" id="submitBtn">
+                    Get Answer
+                </button>
+            </form>
+
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Processing your question...</p>
+            </div>
+
+            <div id="answerSection" class="answer-section" style="display: none;">
+                <h3>Answer:</h3>
+                <div id="answerText" class="answer-text"></div>
+            </div>
+
+            <div id="errorMessage" class="error-message" style="display: none;"></div>
+
+            <div class="example-questions">
+                <h4>💡 Example Questions:</h4>
+                <ul class="example-list">
+                    <li onclick="setQuestion('What is this document about?')">What is this document about?</li>
+                    <li onclick="setQuestion('What are the main topics covered?')">What are the main topics covered?</li>
+                    <li onclick="setQuestion('जून 2025 मध्ये कोणत्या क्षेत्रीय कार्यालयाने सर्वाधिक काम केले?')">जून 2025 मध्ये कोणत्या क्षेत्रीय कार्यालयाने सर्वाधिक काम केले?</li>
+                    <li onclick="setQuestion('Can you summarize the key points?')">Can you summarize the key points?</li>
+                    <li onclick="setQuestion('What are the important dates mentioned?')">What are the important dates mentioned?</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function setQuestion(question) {
+            document.getElementById('question').value = question;
+        }
+
+        document.getElementById('questionForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const question = document.getElementById('question').value.trim();
+            if (!question) return;
+
+            const submitBtn = document.getElementById('submitBtn');
+            const loading = document.getElementById('loading');
+            const answerSection = document.getElementById('answerSection');
+            const errorMessage = document.getElementById('errorMessage');
+
+            // Show loading
+            submitBtn.disabled = true;
+            loading.style.display = 'block';
+            answerSection.style.display = 'none';
+            errorMessage.style.display = 'none';
+
+            try {
+                const response = await fetch('/ask', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question: question })
+                });
+
+                const data = await response.json();
+
+                if (data.error) {
+                    errorMessage.textContent = data.error;
+                    errorMessage.style.display = 'block';
+                } else {
+                    document.getElementById('answerText').textContent = data.answer;
+                    answerSection.style.display = 'block';
+                }
+
+            } catch (error) {
+                errorMessage.textContent = 'Error connecting to server. Please try again.';
+                errorMessage.style.display = 'block';
+            } finally {
+                submitBtn.disabled = false;
+                loading.style.display = 'none';
+            }
+        });
+
+        // Auto-resize textarea
+        document.getElementById('question').addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = this.scrollHeight + 'px';
+        });
+    </script>
+</body>
+</html>
