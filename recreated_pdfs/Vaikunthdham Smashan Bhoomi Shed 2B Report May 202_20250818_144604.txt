@@ -1,0 +1,254 @@
+DOCUMENT: Vaikunthdham Smashan Bhoomi Shed 2B Report May 202_20250818_144604
+==================================================
+
+PAGE: page_1
+------------------------------
+TEST REPORT
+
+Organisation
+
+M/s. NIKITA BOILERS
+
+SITE —- SHED NO 2 B APC SYSTEM
+VAIKUNTHDHAM SMASHAN BHOONMI,
+
+NAVI-PETH, PUNE.
+
+GADARK LAB PVT. LTD.
+
+INDUSTRIAL ANALYSTS & CONSULTANTS
+LAB.: H-54, Additional M.I.D.C. Kudal, Taluka - Kudal, District - Sindhudurg - 416 525.
+Tel. : (02362) 223519 ¢ E-mail : info@gadark.in » Website : www.gadark.in
+
+OFF.: 15, Hindustan Kohinoor Industrial Complex, L.B.S. Marg, Vikhroli (West), Mumbai - 83.
+Tel.: (022) 2577 7069 / 2577 7070 / 2085 0091 * +91 93213 12367
+
+No. GL/N/0511/24
+Date 21/05/2024
+
+EFFICIENCY OF SCRUBBER SYSTEM : Testing done with 2 Bodies Burning simultaneously.
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ambient Temperature (°C) PB
+
+Duration of Sample collection (Min) fF tw a
+
+Location of Sampling Scrubber System Scrubber System
+Inlet Outlet
+
+Area (sq.m.) 0.2828 0.7239
+
+Date of Sample collection 16/05/2024 16/05/2024
+
+Time of Sampling (Hrs) 16:15 16:15
+
+Temperature of flue gas (°C) 542 117
+
+Average Velocity of flue gas (m/s) 17.9 6.7
+
+Average volume of flue gas Discharged (m*/hr) 46649 6821
+
+Average volume of flue gas Discharged (Nm°/hr) 17057 5212
+
+Total Volume of flue gas Sampled (Lit at 25°C) | ___| 443
+
+Weight of Total Particulate Matter collected (mg) 467.6 20.2
+
+Concentration of Total Particulate Matter in the flue 468.1 45.6
+
+gas (mg/Nm‘)
+
+ 
+
+Efficiency (%)
+
+ 
+
+ 
+
+19026 | ०.26
+
+ 
+
+For GADARK LAB PVT. LTD.
+
+(8८८५ J
+
+AUTHORISED SIGNATORY
+[KAILAS V. CHITALKAR]
+
+ 
+
+CHECKED BY
+
+Recognised by Central Pollution Control Board (MoEF and CC, Govt. of India), under the EP Act, 1986,
+valid upto 21st August 2025. ISO 9001 : 2015 and ISO 45001 : 2018 Certified.
+
+PAGE: page_2
+------------------------------
+GADARK LAB PVT. LTD. —
+INDUSTRIAL ANALYSTS & CONSULTANTS
+
+LAB.: H-54, Additional M.I.D.C. Kudal, Taluka - Kudal, District - Sindhudurg - 416 525.
+Tel. : (02362) 223519 « E-mail : info@gadark.in » Website : www.gadark.in
+
+GADARK OFF.: 15, Hindustan Kohinoor Industrial Complex, L.B.S. Marg, Vikhroli (West), Mumbai - 83.
+
+ 
+
+Tel.: (022) 2577 7069 / 2577 7070 / 2085 0091 » +91 93213 12367
+
+ 
+
+TEST REPORT
+
+Organisation : M/s. NIKITA BOILERS
+
+No. N/0511 Contd.
+
+Date 21/05/2024
+
+SITE —- SHED NO 2B APC SYSTEM
+VAIKUNTHDHAM SMASHAN BHOOMI,
+
+NAVI-PETH, PUNE.
+
+EFFICIENCY OF SCRUBBER SYSTEM : Testing done with 2 Bodies Burning simultaneously.
+
+ 
+
+Date of Sample collection
+
+16/05/2024
+
+ 
+
+Time of Sampling (Hrs)
+
+16:15
+
+ 
+
+Volume of flue gas Sampled (Lit at 25°C)
+
+39.3
+
+ 
+
+ 
+
+Location of Sampling
+
+Scrubber System Outlet
+
+ 
+
+Concentration of Particulate Matter (mg/Nm*)
+
+ 
+
+Concentration of HCl (mg/Nm?)
+
+45.6
+
+Below Detectable Limit
+
+ 
+
+Concentration of Hf (mg/Nm°)
+
+ 
+
+Concentration of SOz2 (mg/Nm*)
+
+Below Detectable Limit
+
+Below Detectable Limit
+
+ 
+
+ 
+
+Concentration of NOx (ppm)
+
+ 
+
+Concentration of Lead (mg/Nm*)
+
+9.5
+
+Below Detectable Limit
+
+ 
+
+Mixture of Ast+Cd+Cr+Hg+Ni (mg/Nm°)
+
+ 
+
+ 
+
+Concentration of TOC (mg/Nm°)
+
+Concentration of CO (mg/Nm°)
+
+ 
+
+Below Detectable Limit
+
+ 
+
+Below Detectable Limit
+
+ 
+
+ 
+
+For GADARK LAB PVT. LTD.
+
+(Wu
+
+AUTHORISED SIGNATORY
+[KAILAS V. CHITALKAR]
+
+Below Detectable Limit
+
+CHECKED BY
+
+Recognised by Central Pollution Control Board (MoEF and CC, Govt. of India), under the EP Act, 1986,
+valid upto 21st August 2025. ISO 9001 : 2015 and ISO 45001 : 2018 Certified.
+

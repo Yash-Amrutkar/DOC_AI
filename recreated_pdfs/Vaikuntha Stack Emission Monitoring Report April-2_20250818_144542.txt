@@ -1,0 +1,811 @@
+DOCUMENT: Vaikuntha Stack Emission Monitoring Report April-2_20250818_144542
+==================================================
+
+PAGE: page_1
+------------------------------
+|
+
+2.
+Sxy ab
+
+     
+   
+
+AND,
+
+“4
+“he '& YTICAL LAB ORATORY
+en. ANAL ISONEC 17025:2017
+J : er :
+र Accredited by NABL AS Per El 5 150 45001:2018 sails
+; © ७ Certified by 1SO 9001:2015. 180 00909० (१०६०00), 0०९५ ५॥1००, New
+/ i i
+_ONMENTAL LABORATORY क Ministry of Environment, Forest & > = TEXTILE
+i a Recognized by ENVIRONMENT » FOOD
+.
+
+  
+  
+    
+   
+    
+       
+    
+  
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  
+    
+      
+  
+ 
+
+GTION CONTROL
+GOAL POLLUTION CONTRO!
+
+| 0000000001 आड.
+TEST So REPORT SP 19/FMO2/04/SM(25-26-0188 A
+
+: M
+REPORT NO : SAU
+NAME & ADDRESS OF CUSTOMER: REPORT DATE : 11/04/2025
+1 oration i
+य शेणात 0 Address: vaikunth samshanbhuml, QystomER REF : TENDER ७.8201/082
+Navi peth Pune.,
+
+कक > किणणणण॥ 7
+SAMPLE TPE SS igyat Daan Vent Inlet TYPE: Stack Emission
+
+: Vidyut Dahani Venturi Inlet
+
+1ON र |
+: Se meee : Mr.Jagdish Suryavanshi
+MPLE REGISTRATION NO. : 04/S) ON OLLECTED BY TL
+SAMPLING PLAN & METHOD NO: i ae SAMP! (skylab)
+डं .
+04/04/2025 STACK HEIGHT FROM GL : a गिह
+३७ टे aE: 17:10:00 SHAPE OF STACK kK : en
+ANALYSIS START DATE 07/04/2025 MATERIAL OF STAC :
+
+FUEL USED(CONSUMPTION) : Electricity
+
+Reference Method
+
+Method 411, Methods of Air Sampling and
+Analysis, 3rd Edition
+
+ANALYSIS COMPLETE DATE: 11/04/2028 पप्पाच्या” च COMPLETE DATE: 11/04/2025
+
+Test Parameters
+
+foe | " ° " र
+
+Dimensions of Stack i
+NA
+A 1S = 11255 Part)
+A
+
+16362
+र uE
+225
+:
+
+1 | Carbon Monoxide |__ppm | NS
+
+ND: Not Detected. NS: Not Specified As per CPCB Guidolnes च -- Not Detected. NS: Not Specified. As per CPCB Guidelines
+
+| | E |
+
+°
+ळ
+Zz
+>
+
+St
+
+N
+N IS — 11255 (Part 1)
+IS 11255 (Part 1)
+
+az
+>
+
+IS — 11255 (Part 1)
+
+N IS 11255 (Part 2)
+IS 11255 (Part 2)
+IS 11255 (Part 7)
+
+EPA Method NO.10
+
+ 
+
+ 
+
+   
+  
+
+Opinion/Observation: Analyzed parameters in above Tested sample We WNT SAGA i Rote ne re in andar 8 per CPCB Gulden i tas per CP
+eo 9 ers in above tested sample are within standard limit as per CPCB Guidelines ig
+Singha ape लय य स
+Analyzed By
+For SKYLAB ANALYTICAL LABORATORY
+ye ane
+Sr Analyst = Z र eS)
+
+Dr. Datta Mandhay,
+
+rrr et it ped bier
+joriz i
+END OF REPORT eee
+
+1. This report reflects शिला;
+i | ly for the ab.
+2 This reoort लकर ig onl above sample tested/monit i
+9 e lonitored and
+3 शक es ठा = oe be र एप ७ in part or full without permission raat AB arch io ळशी
+sien Aneto Poesy ig use of this report by any personi पळ कटी यी
+
+Organization etc will attract Suitable leagal action against them by
+y
+202, CFC-3, Asmeeta Texpa, Addl.Kalyan-Bhiwandi In
+
+Mob. : 9867577309-312 / 8422!
+
+SKY! i je
+‘LAB is always subject to improvement. For
+
+dustrial Area, MIDC, Village Kon, Tal. Bhiwandi
+पा
+
+929165. Email : ma ils@skylaben viro.com,
+better customer Satisfaction,
+
+Dist. Thane, Maharashtra, |
+Website : www.skylabenviro.com
+
+we welcome your feedback
+on: feedback@skytab i
+eM bp ycc
+
+PAGE: page_2
+------------------------------
+OF
+As cov T. No,
+
+  
+    
+
+3 Sxy ab
+पर्ण ANALYTICAL LABORATORY
+ERVIROMMNENTAL LABORATORY ® Accredited by NABL as per ISO/IEC 17025:2017
+
+Certified by ISO 9001:2015, ISO 14001:2015 & ISO 45001:2018
+Recognized by Ministry of Environment, Forest & Climate Change (MoEFCC), Govt. of India, New Delhi
+
+= ENVIRONMENT =FOOD = TEXTILE
+
+Sky rab
+
+OUR GOAL POLLUTION CONTROL
+
+ULR:TC515025000005769F
+
+TEST REPORT
+
+NAME & ADDRESS OF CUSTOMER: REPORT NO : SAL/MSP19/FM02/04/SM(25-26-0188 B)
+Mis. Pune Municipal Corporation REPORT DATE : 11/04/2025
+
+Ma.Na.Pa. Bhavan Pune. Site Address: vaikunth samshanbhumi,
+
+Navi peth Pune., CUSTOMER REF : TENDER NO.320/2023
+
+Maharashtra
+
+ 
+
+SAMPLE TYPE: Stack Emission
+
+   
+
+ 
+
+ 
+
+SAMPLE REGISTRATION NO. : + 04/SM(25-26-0188 B) LOCATION : Vidyut Dahan-inlet
+
+SAMPLING PLAN & METHOD NO: As per Reference SAMPLE COLLECTED BY : Mr.Jagdish Suryavanshi
+Method (Skylab)
+
+SAMPLING DATE : 04/04/2025 STACK HEIGHT FROM GL : 30.5 Meter
+
+SAMPLING TIME : 17:20:00 SHAPE OF STACK : Round
+
+ANALYSIS START DATE : 04/04/2025 MATERIAL OF STACK :MS
+
+ANALYSIS COMPLETE DATE: = 11/04/2025 FUEL USED(CONSUMPTION) : Electricity
+
+  
+
+  
+
+    
+
+  
+     
+ 
+     
+
+   
+
+Test Parameters | unit | nit ror | Norms# Reference Method
+
+crore reins ह
+
+m2
+Temperature °C
+| 5 | Velocity m/sec
+|_५_| 26504
+56.5
+| 8 | Sulphur Dioxide 2.61
+= mg/m
+498
+
+Carbon Monoxide ppm 39
+ND: Not ND: Not Detected. NS: Not Specified. As per CPCB Guidelines Eee NS: Not Specified. As per CPCB Guidelines
+
+Opinion/Observation: Analyzed parameters in above tested sample are WN Sere Analyzed parameters in above tested sample are within standard limit as per CPCB Guidelines
+Note:
+
+ 
+
+Method 411, Methods of Air Sampling and
+Analysis, 3rd Edition
+
+Zz
+>
+
+oO
+
+aS
+Za
+n
+
+Zz |Z
+
+0.126
+128
+
+Zz
+>
+
+N
+©
+>
+
+150
+
+Zz
+
+ 
+     
+
+EPA Method NO.10
+
+   
+
+Analyzed By For SKYLAB ANALYTICAL LABORATORY
+KG तट
+दळ भारत. OAS
+hahane TC-5150 ce BD. a5 hare
+ae 4 eee
+Sr'Analyst ( Authorized” Signatory)
+
+ 
+
+Oe END OF REPORT कक्कर ND OF REP rrr CCC 717 RT
+
+1. This report reflects finding only for the above sample tested/monitored and only for time and place of monitoring/testing.
+
+2. This report is confidiential & cannot be re-produced in part or full without permission of SKYLAB Analytical Laboratory.
+
+3. Any attempt of forgery or misleading use of this report by any person/organization etc will attract suitable leagal action against them by
+SKYLAB Analytical Laboratory.
+
+ 
+
+202, CFC-3, Asmeeta Texpa, Addl.Kalyan-Bhiwandi Industrial Area, MIDC, Village Kon, Tal. Bhiwandi, Dist. Thane, Maharashtra, | BI
+Mob. : 9867577309-312 / 8422929165. Email : mails@skylabenviro.com, Website : www.skylabenviro.com
+SKYLAB न TE अका always subject to improvement. For better customer satisfaction, we welcome your feedback on : feedback@skyragenvisPico!
+
+PAGE: page_3
+------------------------------
+GOT OF ny
+
+Ag. : & B
+
+वा KU La
+9
+Co. Tl T
+
+a Be ANALYTICAL LABORATORY
+बळ ® ‘ai Accredited by NABL as per ISO/IEC 17025:2017
+KU Le = B ertified by ISO 9001:2015, ISO 14001:2015 & ISO 45001:2018
+
+Recognized by Ministry of Environment, Forest & Climate Change (MoEFCC), Govt. of India, New Delhi
+OUR GOAL POLLUTION CONTROL = ENVIRONMENT =FOOD = TEXTILE
+ULR:TC515025000005770F
+
+TEST REPORT
+
+NAME & ADDRESS OF CUSTOMER: REPORT NO : SAL/MSP19/FM02/04/SM(25-26-0188 C)
+M/s. Pune Municipal Corporation REPORT DATE: 11/04/2025
+
+Ma.Na.Pa. Bhavan Pune. Site Address: vaikunth samshanbhumi,
+
+Navi peth Pune., CUSTOMER REF : TENDER NO.320/2023
+
+Maharashtra
+
+ 
+
+SAMPLE TYPE: Stack Emission
+
+ 
+
+SAMPLE REGISTRATION NO. : 04/SM(25-26-0188 C) LOCATION : Vidyut Dahan-Outlet
+
+SAMPLING PLAN & METHOD NO: As per Reference SAMPLE COLLECTED BY : Mr.Jagdish Suryavanshi
+Method (Skylab)
+
+SAMPLING DATE : 04/04/2025 STACK HEIGHT FROM GL : 30.5 Meter
+
+SAMPLING TIME > 17:30:00 SHAPE OF STACK : Round
+
+ANALYSIS START DATE : 04/04/2025 MATERIAL OF STACK :MS
+
+ANALYSIS COMPLETE DATE: = 11/04/2025 FUEL USED(CONSUMPTION) : Electricity
+
+Isr.No,| Test Parameters | unit —_| Reference Method
+
+1 yg/m3 61 NS Method 411, Methods of Air Sampling and
+Analysis, 3rd Edition
+
+० ofstack [om | oa |
+
+Cis area of Stack 0.126 Po
+IS ~ 11255 Part)
+
+ 
+
+         
+    
+
+ 
+
+  
+        
+      
+     
+     
+ 
+
+12
+
+Ls
+| 6
+mgiNis 150
+[_&_| sulphur Dioxide
+| 2
+| os2 |
+
+||
+L_1 | Carbon Monoxide __] pen __ | _* _)  d  E E
+
+  
+
+Carbon Monoxide | ppm | EPA Method NO.10
+
+ND: Not Detected. NS: Not Specified. As per CPCB Guidelines
+
+Opinion/Observation: Analyzed parameters in above tested sample are within standard limit as per OpmnlonlObsenation? Analyzed parameters in above tested sample are within standard limitas per CPCB Guidelines. Guidelines
+Note:
+
+   
+
+  
+
+ 
+
+Analyzed By For SKYLAB ANALYTICAL LABORATORY
+LEY as
+(Se <>
+Sp USF5 र)
+‘ul Shahane a
+Te-5150 a aS e
+42
+Sr Analyst ( Authorized = Signatory)
+
+ 
+
+END OF REPORT
+
+1. This report reflects finding only for the above sample tested/monitored and only for time and place of monitoring/testing.
+
+2. This report is confidiential & cannot be re-produced in part or full without permission of SKYLAB Analytical Laboratory.
+
+3. Any attempt of forgery or misleading use of this report by any person/organization etc will attract suitable leagal action against them by ह
+SKYLAB Analytical Laboratory. .
+
+    
+
+7 ;
+202, CFC-3, Asmeeta Texpa, Addl.Kalyan-Bhiwandi Industrial Area, MIDC, Village Kon, Tal. Bhiwandi, Dist. Thane, Maharashtra, INDIA. Pincode-4
+Mob. : 9867577309-312 / 8422929165. Email : mails@skylabenviro.com, Website : www.skylabenviro.com
+SKYLAB is always subject to improvement. For better customer satisfaction, we welcome your feedback on : feedback@skyB@AviW.dom
+
+PAGE: page_4
+------------------------------
+Sxu ab
+
+    
+
+ANALYTICAL LABORATORY
+ai : Accredited by NABL as per ISO/IEC 17025:2017
+ENVIRONMENTAL LABORATORY & Certified by ISO 9001:2015, ISO 14001:2015 & ISO 45001:2018
+Ss; K Ee Recognized by Ministry of Environment, Forest & Climate Change (MoEFCC), Govt. of India, New Delhi
+OUR GOAL POLLUTION CONTROL = ENVIRONMENT =FOOD = TEXTILE
+
+ULR:TC515025000005771F
+
+TEST REPORT
+
+ 
+
+NAME & ADDRESS OF CUSTOMER: ~~ REPORT NO? SALIMGPT6/FMOD/O4/SIADSDO-OIES DY ADDRESS OF CUSTOMER: REPORT NO : SAL/MSP19/FM02/04/SM(25-26-0188 D)
+Mis. Pune Municipal Corporation REPORT DATE: = 11/04/2025
+
+Ma.Na.Pa. Bhavan Pune. Site Address: vaikunth samshanbhumi
+
+Navi peth Pune CUSTOMER REF : TENDER NO.320/2023
+
+Maharashtra
+
+ 
+
+SAMPLE TYPE: Stack Emission
+
+SAMPLE REGISTRATION NO. =: 04/SM(25-26-0188 D) LOCATION : Wood Dahan shed No.1-Inlet
+
+SAMPLING PLAN & METHOD NO: As per Reference SAMPLE COLLECTED BY : Mr.Jagdish Suryavanshi
+Method (Skylab)
+
+SAMPLING DATE : 04/04/2025 STACK HEIGHT FROM GL : 30.5 Meter
+
+SAMPLING TIME : 17:40:00 SHAPE OF STACK : Round
+
+ANALYSIS START DATE : 04/04/2025 MATERIAL OF STACK :MS
+
+ANALYSIS COMPLETE DATE  : 11/04/2025 FUEL USED(CONSUMPTION) : Wood
+
+ 
+
+     
+ 
+
+srNo| TestParameters | unit | Result __|
+= pe
+| om | os |
+०283
+| 4 [Temperate | sc | 88
+Es | 0५७९ |[__89 |
+|e |
+र
+|e
+| 2 | sulphur Dioxide |_ए७श3 |__95$ | ns
+__७७ |
+jm | ie | is
+
+ND: Not Detected. NS: Not Specified. As per CPCB Guidelines
+
+Opinion/Observation: Analyzed parameters in above tested sample are not within standard limit as per CPCB Guidelines
+Note:
+
+Analyzed By
+
+Reference Method
+
+Method 411, Methods of Air Sampling and
+Analysis, 3rd Edition
+
+NA IS = 11255 (Pat)
+
+  
+      
+      
+       
+
+IS — 11255 (Part 1)
+IS 11255 (Part 1)
+
+  
+
+ 
+
+ 
+
+ 
+
+के
+
+  
+
+Be १11918 1८-51509 Dr.Datta Mandhare
+
+Sr Analyst (Authorized Signatory)
+
+END OF REPORT
+
+ 
+
+1. This report reflects finding only for the above sample tested/monitored and only for time and place of monitoring/testing.
+
+2. This report is confidiential & cannot be re-produced in part or full without permission of SKYLAB Analytical Laboratory.
+
+3. Any attempt of forgery or misleading use of this report by any person/organization etc will attract suitable leagal action against them by
+SKYLAB Analytical Laboratory.
+
+ 
+
+202, CFC-3, Asmeeta Texpa, Addl.Kalyan-Bhiwandi Industrial Area, MIDC, Village Kon, Tal. Bhiwandi, Dist. Thane Maharashtre+
+Mob. : 9867577309-312 / 8422929165. Email : mails@skylabenviro.com Website : www.skylabenviro.com
+SKYLAB is always subject to improvement. For better customer satisfaction, we welcome your feedback on feedback@skyaham
+
+iro.com
+
+PAGE: page_5
+------------------------------
+Age. Sxy ab
+
+  
+ 
+
+re
+
+9 s TI Te
+
+Ze 3 ANALYTICAL LABORATORY
+
+2 = ® Accredited by NABL as per ISO/IEC 17025:2017
+
+ENVIRONMENTAL LABORATORY, ay Certified by ISO 9001:2015, ISO 14001:2015 & ISO 45001:2018
+
+K Le Recognized by Ministry of Environment, Forest & Climate Change (MoEFCC), Govt. of India, New Delhi
+
+OUR GOAL POLLUTION CONTROL = ENVIRONMENT "FOOD = TEXTILE
+ULR:TC515025000005772F
+TEST REPORT
+
+——OOOOO Ee र
+NAME & ADDRESS OF CUSTOMER: REPORT NO : SAL/MSP19/FM02/04/SM(25-26-0188 F)
+Ms. Pune Municipal Corporation REPORT DATE: 11/04/2025
+Ma.Na.Pa. Bhavan Pune. Site Address: vaikunth samshanbhumi,
+Navi peth Pune., CUSTOMER REF : TENDER NO.320/2023
+Maharashtra
+
+ 
+
+SAMPLE TYPE: Stack Emission
+
+ 
+
+SAMPLE REGISTRATION NO. =: 04/SM(25-26-0188 F) LOCATION : Wood Dahan shed No.1-Outlet
+
+SAMPLING PLAN & METHOD NO: As per Reference SAMPLE COLLECTED BY : Mr.Jagdish Suryavanshi
+Method (Skylab)
+
+SAMPLING DATE : 04/04/2025 STACK HEIGHT FROM GL : 30.5 Meter
+
+SAMPLING TIME > 17:55:00 SHAPE OF STACK : Round
+
+ANALYSIS START DATE : 04/04/2025 MATERIAL OF STACK :MS
+
+ANALYSIS COMPLETE ०६1६  : 11/04/2025 FUEL USED(CONSUMPTION) : Wood
+
+ 
+
+        
+
+ 
+   
+       
+    
+   
+     
+
+Isr.No, Test Parameters | unit —_| | Normst —_| Reference Method
+1
+
+| Resuit__|
+= fete जा
+Analysis, 3rd Edition
+a ee  |[___-________
+Po
+| 4 |
+| 5 |Vvelocty | msec |e
+| 6 |FiueGas Discharge | marie | sora | NA
+| iso
+| 2 |
+| 9 | sulphurDioxide | ७0७ | 207 [४७ |
+[co
+
+ND: Not Detected. NS: Not Specified. As per CPCB Guidelines
+
+Opinion/Observation: Analyzed parameters in above tested sample are within standard limit as per CPCB Guidelines
+Note:
+
+  
+
+ 
+
+ 
+
+ 
+
+ 
+
+Analyzed By
+
+  
+    
+
+St ane
+TC-5150
+
+| Sr Analyst
+
+ 
+
+END OF REPORT
+
+1. This report reflects finding only for the above sample tested/monitored and only for time and place of monitoring/testing.
+2. This report is confidiential & cannot be re-produced in part or full without permission of SKYLAB Analytical Laboratory.
+3. Any attempt of forgery or misleading use of this report by any person/organization etc will attract suitable leagal action against them by
+SKYLAB Analytical Laboratory. 4
+t डु — De arn cee 44.
+202, CFC-3, Asmeeta Texpa, Addl.Kalyan-Bhiwandi Industrial Area, MIDC, Village Kon, fal. Bhiwandi, Dist. Thane, eee oak : pa ZS, र
+Mob. : 9867577309-312 / 8422929165. Email = mails@skylabenviro.com, Website : www.skylabenviro. —
+as atisfaction, we welcome your feedback on : feedback@sPyigeanatire-
+
+Tee ee ee ० काशा is always subject to improvement. For better customer s
+
+PAGE: page_6
+------------------------------
+Sxy .ab
+
+ANALYTICAL LABORATORY
+
+Accredited by NABL as per ISO/IEC 17025:2017
+
+ 
+
+   
+
+®
+ENVIRONMENTAL LABORATORY. Certified by ISO 9001:2015, ISO 14001:2015 & ISO 45001:2018
+K ag | | Recognized by Ministry of Environment, Forest & Climate Change (MoEFCC), Govt. of India, New Delhi
+GUR GOAL POLLUTION CONTROL ७ ENVIRONMENT =FOOD = TEXTILE
+
+ULR:TC515025000005771F
+
+TEST REPORT
+
+ 
+
+ 
+
+NAME & ADDRESS OF CUSTOMER: REPORT NO : SAL/MSP19/FM02/04/SM(25-26-0188 E)
+M/s. Pune Municipal Corporation REPORT DATE: 11/04/2025
+
+Ma.Na.Pa. Bhavan Pune. Site Address: vaikunth samshanbhumi,
+
+Navi peth Pune., CUSTOMER REF : TENDER NO.320/2023
+
+Maharashtra
+
+ 
+
+SAMPLE TYPE: Stack Emission
+
+ 
+
+SAMPLE REGISTRATION NO. : = 04/SM(25-26-0188 E) LOCATION : Wood Dahan shed No.1-Inlet
+
+SAMPLING PLAN & METHOD NO: As per Reference SAMPLE COLLECTED BY : Mr.Jagdish Suryavanshi
+Method (Skylab)
+
+SAMPLING DATE : 04/04/2025 STACK HEIGHT FROM GL : 30.5 Meter
+
+SAMPLING TIME : 17:50:00 SHAPE OF STACK : Round
+
+ANALYSIS START DATE : 04/04/2025 MATERIAL OF STACK :MS
+
+ANALYSIS COMPLETE DATE: = 11/04/2025 FUEL USED(CONSUMPTION) : Wood
+
+ 
+
+       
+
+        
+
+Isr.No, No. Test Parameters | unit | Result | Norms# —_| # Reference Method
+
+Analysis, 3rd Edition
+_ ७५७ [| om
+0.288 PO
+| 4 |
+| es |
+Ls |
+|e | 1S 11255 (Part2)
+= 1S 11255 (Part2)
+[10 | Niogen oxides | momma | 1a02_ | ७] 18 11255 (Part7)
+pem
+
+ND: Not Detected. NS: Not Specified. As per CPCB Guidelines
+
+Opinion/Observation: Analyzed parameters in above tested sample are not within standard limit as per Spinion/Obsenvation: Analyzed parameters In above tested sample are not within standard limit as per CPCB Guidelines
+Note :
+
+    
+     
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+    
+
+ 
+
+ 
+
+EPA Method NO.10
+
+Analyzed By
+
+ट्‌
+3c 3
+hane
+TC-5150
+
+Sr Analyst
+
+  
+
+ 
+
+END OF REPORT
+
+1. This report reflects finding only for the above sample tested/monitored and only for time and place of monitoring/testing.
+2. This report is confidiential & cannot be re-produced in part or full without permission of SKYLAB Analytical Laboratory.
+3. Any attempt of forgery or misleading use of this report by any person/organization etc will attract suitable leagal action against them by s:
+SKYLAB Analytical Laboratory. ae
+
+   
+  
+
+202, CFC-3, Asmeeta Texpa, Addl.Kalyan-Bhiwandi Industrial Area, MIDC, Village Kon, Tal. Bhiwandi, Dist. Thane, Maharashtra PRD
+Mob. : 9867577309-312 / 8422929165. Email : mails@skylabenviro.com, Website : www.skylabenviro.com
+SKYLAB is always subject to improvement. For better customer satisfaction, we welcome your feedback on : feedback@sadgbengirb.com
+

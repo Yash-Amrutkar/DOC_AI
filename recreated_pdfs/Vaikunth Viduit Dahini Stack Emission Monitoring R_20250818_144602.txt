@@ -1,0 +1,210 @@
+DOCUMENT: Vaikunth Viduit Dahini Stack Emission Monitoring R_20250818_144602
+==================================================
+
+PAGE: page_1
+------------------------------
+GAD ARK LAB PVT. LTD.
+
+INDUSTRIAL ANALYSTS & CONSULTANTS
+LAB.: H-54, Additional M.1.D.C. Kudal, Taluka - Kudal, District - Sindhudurg - 416 525.
+Tel. : (02362) 223519 * E-mail: info@gadark.in * Website : www.gadark.in
+
+OFF.: 15, Hindustan Kohinoor Industrial Complex, L.B.S. Marg, Vikhroli (West), Mumbai - 83.
+Tel.: (022) 2577 7069 / 2577 7070 / 2085 0091 + +91 93213 12367
+
+TEST REPORT
+
+ 
+
+No. GL/K/1156/25
+Date 16/02/2025
+
+Orgnaistion -: M/s. KALYANI ENTERPRISES
+PLOT NO. 30/10, F-II BLOCK, MIDC PIMPRI, PUNE-411 018.
+
+SITE = VAIKUNTH VIDUIT DAHINI
+NAVI PETH.PUNE MUNICIPAL CORPORATION PUNE
+
+EFFICIENCY OF NEERI SCRUBBER SYSTEM : VIDUIT DAHINI 1,2 &3
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Ambient Temperature (°C) 13]
+Duration of Sample collection (Min) ee
+Stack Height (Meter) 30.5
+Location of Sampling Scrubber System Inlet Scrubber System
+Outlet
+Area (sq.m.) 0.15906 0.6363
+Date of Sample collection 10/02/2025 10/02/2025
+Time of Sampling (Hrs 13:55 13:55
+Temperature of flue gas ("C) 390 | wi
+Average Velocity of flue gas (m/s | tee 6.6 5.3
+Average volume of flue gas Discharged (m°/hr) 5750 12140
+Average volume of flue gas Discharged (Nm*°/hr) 2584 10864
+Total Volume of flue gas Sampled (Lit at 25°C) 644 724
+Weight of Total Particulate Matter collected (mg) 295.3 11.4
+Concentration of Total Particulate Matter in the flue gas 458.6 15.7
+(mg/Nm3)
+Efficiency of Scrubber (% 97.58
+DRAIN WATER COLOUR : 4.0 Hyzen unit
+
+For GADARK LAB PVT. LTD.
+
+Arson e Do
+
+AUTHORISED SIGNATORY [SACHIN B. GAONKAR] CHECKED BY
+
+Recognised by Central Pollution Control Board (MoEF and CO, Govt, of India), under the EPAct, 1986,
+valid upto 21 st August 2025. ISO 9001 : 2015 and ISO 45001 : 2018 Certified.
+
+PAGE: page_2
+------------------------------
+GAD ARK LAB PVT. LTD.
+
+INDUSTRIAL ANALYSTS & CONSULTANTS
+LAB.: H-54, Additional M.I.D.C. Kudal, Taluka - Kudal, District - Sindhudurg - 416 525.
+Tel. : (02362) 223519 » E-mail: info@gadark.in * Website : www.gadark.in
+
+OFF.: 15, Hindustan Kohinoor Industrial Complex, L.B.S. Marg, Vikh [oli (West), Mumbai - 83.
+Tel.: (022) 2577 7069 / 2577 7070 / 2085 0091 + +91 93213 12367
+
+ 
+
+TEST REPORT
+
+No. K/1155 Contd.
+Date 16/02/2025
+
+Organisation : M/s. KALYANI ENTERPRISES
+PLOT NO. 30/10, F-II BLOCK,
+MIDC PIMPRI, PUNE-411 018.
+
+SITE : VAIKUNTH VIDUIT DAHINI NAVI PETH,
+
+PUNE MUNCIPAL, CORPORATION PUNE
+
+EFFICIENCY OF NEERI SCRUBBER SYSTEM: VIDUIT DAHINI 1,2 &3
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Date of Sample collection 10/02/2025
+
+[Time of Sampling (Hrs 13:55
+
+olume of flue gas Sampled (Lit at 25°C) 38.2
+
+Location of Sampling Scrubber System Outlet LIMITS
+Concentration of Particulate Matter (mg/Nm*) 15.7 (5000
+Concentration of Hydrochloric Acid (HCL) (mg/Nm°) Below Detectable Limit | 500
+(Concentration of of Hydrogen Floride (HF) (mg/Nm°) Below Detectable Limit | 40
+Concentration of Sulphur Dioxide (SO2) (mg/Nm*) Below Detectable Limit | 2000
+(Concentration of Oxides of Nitrogen (NOx) (ppm) 3.9 400.0
+
+ 
+
+(Concentration of Lead (Pb) (mg/Nm°)
+
+Below Detectable Limit Not Specified
+
+ 
+
+(Concentration of Mercury (Hg) Compounds as (Hg)
+(mg/Nm°)
+
+Below Detectable Limit Not Specified
+
+ 
+
+Concentration of Hydrocarbon (HC) (mg/Nm°)
+
+Below Detectable Limit Not Specified
+
+ 
+
+Concentration of Carbon Monoxide (CO) (mg/Nm?)
+
+ 
+
+ 
+
+Below Detectable Limit 100.0
+
+ 
+
+ 
+
+Remarks :- All the results are well within prescribed Common Hazardous Waste CPCB Limits.
+
+For GADARK LAB PVT. LTD.
+
+AUTHORISED SIGNATORY
+[SACHIN B. GAONKAR]
+
+Or
+a
+
+CHECKED BY
+
+Recognised by Central Pollution Control Board (MoEF and CO, Govt, of India), under the EPAct, 1986,
+valid upto 21 st August 2025. ISO 9001 : 2015 and ISO 45001 : 2018 Certified.
+
